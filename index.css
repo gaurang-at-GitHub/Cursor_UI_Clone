@@ -17,8 +17,46 @@ img {
     height: auto;
 }
 
+.hero h1 {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    color: #fff;
+}
+
+#box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
 #box2 {
     color: #ffff;
+    display: flex;
+    gap: 30px;
+}
+
+#box3 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#box3 button:first-child {
+    background: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#box3 button:last-child {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    padding: 8px 16px;
+    color: #fff;
+    cursor: pointer;
 }
 
 #box4 {
