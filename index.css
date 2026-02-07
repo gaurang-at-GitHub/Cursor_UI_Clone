@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;  
+}
+
+.cursor {
+    background-color: #14120B;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#box2 {
+    color: #ffff;
+}
+
+#box4 {
+    background-image: url('assets/cursor.com_.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh
+}
+
+#box5 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    overflow: hidden;
+    align-items: center;
+}
+
+#box6 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    overflow: hidden;
+    align-items: center;
+}
+
+#box7 {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    overflow: hidden;
+    align-items: center;
+}
+
+.testimonials h1 {
+    color: #ffff;
+}
+
+#frontier {
+    color: #ffff;
+}
+
+#box8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+}
+
+.changelog h1 {
+    color: #ffff;
+}
+
+#box9 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow: hidden;
+}
+
+.join-us {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.cursor h1 {
+    color: #ffff;
+}
+
+#box9 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+#box9 h5 {
+    color: #4b5563;
+}
+
+#box9 p {
+    color: #ffff;
+}
+

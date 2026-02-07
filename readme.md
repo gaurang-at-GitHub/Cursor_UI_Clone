@@ -1,0 +1,1 @@
+Created the UI clone of Cursor by using simple HTML and raw CSS.
